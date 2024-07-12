@@ -1,43 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
-    <prato id="P01">
-        <nome>Sopa de Carne</nome>
-        <descricao>um Sopa é apenas água e outros ingredientes.</descricao>
-        <ingredientes>Água, carne, coentro, macarrão, páprica, sal, creme de leite e alho.</ingredientes>
-        <preco>R$ 10/Unidade</preco>
-        <calorias>500 Kcal/Unidade</calorias>
-        <tempodepreparo>1 hora</tempodepreparo>
+    <prato id="prato1">
+      <nome>Lasanha à Bolonhesa</nome>
+      <descricao>Massas recheadas com molho à bolonhesa caseiro, queijo mussarela e bechamel cremosa. Um clássico irresistível!</descricao>
+      <ingredientes>
+        <ingrediente>Massa de lasanha</ingrediente>
+        <ingrediente>Carne moída</ingrediente>
+        <ingrediente>Cebola</ingrediente>
+        <ingrediente>Alho</ingrediente>
+        <ingrediente>Molho de tomate</ingrediente>
+        <ingrediente>Tempero verde</ingrediente>
+        <ingrediente>Queijo mussarela</ingrediente>
+        <ingrediente>Molho bechamel</ingrediente>
+      </ingredientes>
+      <preco>R$ 29,90</preco>
+      <calorias>500 kcal</calorias>
+      <tempodepreparo>45 minutos</tempodepreparo>
     </prato>
-    <prato id="P02">
-        <nome>Petit gataeu</nome>
-        <descricao>doce francês</descricao>
-        <ingredientes>chocolate, ovos, açúcar, manteiga e farinha de trigo.</ingredientes>
-        <preco>R$ 15/Unidade </preco>
-        <calorias>700 Kcal/Unidade</calorias>
-        <tempodepreparo>45 Minutos</tempodepreparo>
+  
+    <prato id="prato2">
+      <nome>Strogonoff de Carne</nome>
+      <descricao>Carne em tiras macias com molho cremoso de champignons e arroz branco. Um prato saboroso e perfeito para qualquer ocasião.</descricao>
+      <ingredientes>
+        <ingrediente>Filé mignon</ingrediente>
+        <ingrediente>Champignon</ingrediente>
+        <ingrediente>Cebola</ingrediente>
+        <ingrediente>Alho</ingrediente>
+        <ingrediente>Creme de leite</ingrediente>
+        <ingrediente>Catchup</ingrediente>
+        <ingrediente>Mostarda</ingrediente>
+        <ingrediente>Arroz branco</ingrediente>
+      </ingredientes>
+      <preco>R$ 34,90</preco>
+      <calorias>600 kcal</calorias>
+      <tempodepreparo>30 minutos</tempodepreparo>
     </prato>
-    <prato id="P03">
-        <nome>Cuzcuz</nome>
-        <descricao>Um prato típico do nordeste</descricao>
-        <ingredientes>Flocos de milho e sal.</ingredientes>
-        <preco>R$ 5/Unidade</preco>
-        <calorias>120 Kcal/Unidade</calorias>
-        <tempodepreparo>1 hora</tempodepreparo>
+  
+    <prato id="prato3">
+      <nome>Frango à Parmegiana</nome>
+      <descricao>Filé de frango empanado e frito, coberto com molho de tomate caseiro e queijo mussarela derretido. Uma explosão de sabor!</descricao>
+      <ingredientes>
+        <ingrediente>Filé de frango</ingrediente>
+        <ingrediente>Ovo</ingrediente>
+        <ingrediente>Farinha de trigo</ingrediente>
+        <ingrediente>Farinha de rosca</ingrediente>
+        <ingrediente>Molho de tomate</ingrediente>
+        <ingrediente>Queijo mussarela</ingrediente>
+        <ingrediente>Manjericão</ingrediente>
+      </ingredientes>
+      <preco>R$ 27,90</preco>
+      <calorias>450 kcal</calorias>
+      <tempodepreparo>40 minutos</tempodepreparo>
     </prato>
-    <prato id="P04">
-        <nome>Macarronada</nome>
-        <descricao>Um híbrido entre macarrão e carne moída</descricao>
-        <ingredientes>Macarrão, carne moída, alho, cebola e sal.</ingredientes>
-        <preco>R$ 7/Unidade</preco>
-        <calorias>120 Kcal/Unidade</calorias>
-        <tempodepreparo>1 hora</tempodepreparo>
-    </prato>
-    <prato id="P05">
-        <nome>Bolo de Milho</nome>
-        <descricao>Um bolo feito de milho</descricao>
-        <ingredientes>Milho, farinha de trigo, ovos, manteiga e açúcar.</ingredientes>
-        <preco>R$ 10/Fatia</preco>
-        <calorias>200 Kcal/Fatia</calorias>
-        <tempodepreparo>1 hora</tempodepreparo>
-    </prato>
+    <prato id="prato4">
+        <nome>Frango à Parmegiana</nome>
+        <descricao>Filé de frango empanado e frito, coberto com molho de tomate caseiro e queijo mussarela derretido. Uma explosão de sabor!</descricao>
+        <ingredientes>
+          <ingrediente>Filé de frango</ingrediente>
+          <ingrediente>Ovo</ingrediente>
+          <ingrediente>Farinha de trigo</ingrediente>
+          <ingrediente>Farinha de rosca</ingrediente>
+          <ingrediente>Molho de tomate</ingrediente>
+          <ingrediente>Queijo mussarela</ingrediente>
+          <ingrediente>Manjericão</ingrediente>
+        </ingredientes>
+        <preco>R$ 27,90</preco>
+        <calorias>450 kcal</calorias>
+        <tempodepreparo>40 minutos</tempodepreparo>
+      </prato>
+      <prato id="prato5">
+        <nome>Frango à Parmegiana</nome>
+        <descricao>Filé de frango empanado e frito, coberto com molho de tomate caseiro e queijo mussarela derretido. Uma explosão de sabor!</descricao>
+        <ingredientes>
+          <ingrediente>Filé de frango</ingrediente>
+          <ingrediente>Ovo</ingrediente>
+          <ingrediente>Farinha de trigo</ingrediente>
+          <ingrediente>Farinha de rosca</ingrediente>
+          <ingrediente>Molho de tomate</ingrediente>
+          <ingrediente>Queijo mussarela</ingrediente>
+          <ingrediente>Manjericão</ingrediente>
+        </ingredientes>
+        <preco>R$ 27,90</preco>
+        <calorias>450 kcal</calorias>
+        <tempodepreparo>40 minutos</tempodepreparo>
+      </prato>
 </cardapio>
