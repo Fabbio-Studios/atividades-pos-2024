@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio>
+    <prato id="P01">
+        <nome>Sopa de Carne</nome>
+        <descricao>um Sopa é apenas água e outros ingredientes.</descricao>
+        <ingredientes>Água, carne, coentro, macarrão, páprica, sal, creme de leite e alho.</ingredientes>
+        <preco>R$ 10/Unidade</preco>
+        <calorias>500 Kcal/Unidade</calorias>
+        <tempodepreparo>1 hora</tempodepreparo>
+    </prato>
+    <prato id="P02">
+        <nome>Petit gataeu</nome>
+        <descricao>doce francês</descricao>
+        <ingredientes>chocolate, ovos, açúcar, manteiga e farinha de trigo.</ingredientes>
+        <preco>R$ 15/Unidade </preco>
+        <calorias>700 Kcal/Unidade</calorias>
+        <tempodepreparo>45 Minutos</tempodepreparo>
+    </prato>
+    <prato id="P03">
+        <nome>Cuzcuz</nome>
+        <descricao>Um prato típico do nordeste</descricao>
+        <ingredientes>Flocos de milho e sal.</ingredientes>
+        <preco>R$ 5/Unidade</preco>
+        <calorias>120 Kcal/Unidade</calorias>
+        <tempodepreparo>1 hora</tempodepreparo>
+    </prato>
+    <prato id="P04">
+        <nome>Macarronada</nome>
+        <descricao>Um híbrido entre macarrão e carne moída</descricao>
+        <ingredientes>Macarrão, carne moída, alho, cebola e sal.</ingredientes>
+        <preco>R$ 7/Unidade</preco>
+        <calorias>120 Kcal/Unidade</calorias>
+        <tempodepreparo>1 hora</tempodepreparo>
+    </prato>
+    <prato id="P05">
+        <nome>Bolo de Milho</nome>
+        <descricao>Um bolo feito de milho</descricao>
+        <ingredientes>Milho, farinha de trigo, ovos, manteiga e açúcar.</ingredientes>
+        <preco>R$ 10/Fatia</preco>
+        <calorias>200 Kcal/Fatia</calorias>
+        <tempodepreparo>1 hora</tempodepreparo>
+    </prato>
+</cardapio>
