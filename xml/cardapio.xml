@@ -3,7 +3,7 @@
 <cardapio>
     <prato id="prato1">
       <nome>Lasanha à Bolonhesa</nome>
-      <descricao>Massas recheadas com molho à bolonhesa caseiro, queijo mussarela e bechamel cremosa. Um clássico irresistível!</descricao>
+      <descricao>Massas recheadas com molho à bolonhesa caseiro, queijos mussarela e bechamel cremosa. Um clássico irresistível!</descricao>
       <ingredientes>
         <ingrediente>Massa de lasanha</ingrediente>
         <ingrediente>Carne moída</ingrediente>
