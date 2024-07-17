@@ -1,0 +1,140 @@
+<!DOCTYPE imobiliaria [
+  <!ELEMENT imobiliaria (imovel+)>
+  <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+  <!ELEMENT descricao (#PCDATA)>
+  <!ELEMENT proprietario (nome, email?, telefone*)>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT telefone (#PCDATA)>
+  <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+  <!ELEMENT rua (#PCDATA)>
+  <!ELEMENT bairro (#PCDATA)>
+  <!ELEMENT cidade (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+  <!ELEMENT tamanho (#PCDATA)>
+  <!ELEMENT numQuartos (#PCDATA)>
+  <!ELEMENT numBanheiros (#PCDATA)>
+  <!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+  <imovel>
+    <descricao>Casa aconchegante de 3 quartos em bairro tranquilo.</descricao>
+    <proprietario>
+      <nome>João Silva</nome>
+      <email>joaosilva@email.com</email>
+      <telefone>(11) 9999-9999</telefone>
+      <telefone>(11) 8888-8888</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Flores</rua>
+      <bairro>Jardim Europa</bairro>
+      <cidade>São Paulo</cidade>
+      <numero>123</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>120</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 500.000,00</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Apartamento moderno com vista para a cidade.</descricao>
+    <proprietario>
+      <nome>Maria Oliveira</nome>
+      <telefone>(12) 7777-7777</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Avenida Paulista</rua>
+      <bairro>Bela Vista</bairro>
+      <cidade>São Paulo</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>80</tamanho>
+      <numQuartos>2</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 400.000,00</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Apartamento Antigo.</descricao>
+    <proprietario>
+      <nome>Mário</nome>
+      <telefone>(88) 90909-56565</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Avenida Neópolitana</rua>
+      <bairro>Bela Vista</bairro>
+      <cidade>São Paulo</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>800</tamanho>
+      <numQuartos>20</numQuartos>
+      <numBanheiros>10</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 4.000.000,00</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Apartamento moderno com vista para a praia.</descricao>
+    <proprietario>
+      <nome>Mano Brown</nome>
+      <telefone>(69) 157-157</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Avenida Passou e Tomou</rua>
+      <bairro>Beco do sufoco</bairro>
+      <cidade>São Paulo</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>100</tamanho>
+      <numQuartos>6</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 700.000,00</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Cobertura duplex com piscina privativa.</descricao>
+    <proprietario>
+      <nome>Pedro Cardoso</nome>
+      <email>pedroc@email.com</email>
+      <telefone>(13) 6666-6666</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Hortênsias</rua>
+      <bairro>Alphaville</bairro>
+      <cidade>Barueri</cidade>
+      <numero>50</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>200</tamanho>
+      <numQuartos>4</numQuartos>
+      <numBanheiros>3</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 1.000.000,00</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Casa de campo em condomínio fechado.</descricao>
+    <proprietario>
+      <nome>Ana Lopes</nome>
+      <telefone>(14) 5555-5555</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Estrada do Sol</rua>
+      <bairro>Granja Viana</bairro>
+      <cidade>São Paulo</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>150</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>R$ 650.000,00</valor>
+  </imovel>
+</imobiliaria>
