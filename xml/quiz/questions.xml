@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE quiz SYSTEM "quiz.dtd">
 
-<quiz version="v1.0">
+<quiz versao="v1.0">
   <disciplina>Inglês II</disciplina>
   <professor>
     <nome>Ailsoon</nome>
@@ -53,17 +53,16 @@
         <alternativa correta="nao">Normal</alternativa>
       </alternativas>
     </question>
+
+    <question>
+      <enunciado>Qual é o plural de "Person"</enunciado>
+      <pontuação>100</pontuação>
+      <alternativas>
+        <alternativa correta="nao">Persons</alternativa>
+        <alternativa correta="nao">Persona 5</alternativa>
+        <alternativa correta="sim">People</alternativa>
+        <alternativa correta="nao">Bodys</alternativa>
+      </alternativas>
+    </question>
   </questions>
-
-  <question>
-    <enunciado>Qual é o plural de "Person"</enunciado>
-    <pontuação>100</pontuação>
-    <alternativas>
-      <alternativa correta="nao">Persons</alternativa>
-      <alternativa correta="nao">Persona 5</alternativa>
-      <alternativa correta="sim">People</alternativa>
-      <alternativa correta="nao">Bodys</alternativa>
-    </alternativas>
-  </question>
-
 </quiz>
