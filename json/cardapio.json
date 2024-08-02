@@ -1,0 +1,104 @@
+{
+    "cardapio": {
+      "prato": [
+        {
+          "id": "prato1",
+          "nome": "Lasanha à Bolonhesa",
+          "descricao": "Massas recheadas com molho à bolonhesa caseiro, queijos mussarelas e bechamel cremosa. Um clássico irresistível!",
+          "ingredientes": {
+            "ingrediente": [
+              "Massa de lasanha",
+              "Carne moída",
+              "Cebola",
+              "Alho",
+              "Molho de tomate",
+              "Tempero verde",
+              "Queijo mussarela",
+              "Molho bechamel"
+            ]
+          },
+          "preco": "R$ 29,90",
+          "calorias": "500 kcal",
+          "tempodepreparo": "45 minutos"
+        },
+        {
+          "id": "prato2",
+          "nome": "Strogonoff de Carne",
+          "descricao": "Carne em tiras macias com molho cremoso de champignons e arroz branco. Um prato saboroso e perfeito para qualquer ocasião.",
+          "ingredientes": {
+            "ingrediente": [
+              "Filé mignon",
+              "Champignon",
+              "Cebola",
+              "Alho",
+              "Creme de leite",
+              "Catchup",
+              "Mostarda",
+              "Arroz branco"
+            ]
+          },
+          "preco": "R$ 34,90",
+          "calorias": "600 kcal",
+          "tempodepreparo": "30 minutos"
+        },
+        {
+          "id": "prato3",
+          "nome": "Frango à Parmegiana",
+          "descricao": "Filé de frango empanado e frito, coberto com molho de tomate caseiro e queijo mussarela derretido. Uma explosão de sabor!",
+          "ingredientes": {
+            "ingrediente": [
+              "Filé de frango",
+              "Ovo",
+              "Farinha de trigo",
+              "Farinha de rosca",
+              "Molho de tomate",
+              "Queijo mussarela",
+              "Manjericão"
+            ]
+          },
+          "preco": "R$ 27,90",
+          "calorias": "450 kcal",
+          "tempodepreparo": "40 minutos"
+        },
+        {
+          "id": "prato4",
+          "nome": "Frango à Parmegiana",
+          "descricao": "Filé de frango empanado e frito, coberto com molho de tomate caseiro e queijo mussarela derretido. Uma explosão de sabor!",
+          "ingredientes": {
+            "ingrediente": [
+              "Filé de frango",
+              "Ovo",
+              "Farinha de trigo",
+              "Farinha de rosca",
+              "Molho de tomate",
+              "Queijo mussarela",
+              "Manjericão"
+            ]
+          },
+          "preco": "R$ 27,90",
+          "calorias": "450 kcal",
+          "tempodepreparo": "40 minutos"
+        },
+        {
+          "id": "prato5",
+          "nome": "Frango à Parmegiana",
+          "descricao": "Filé de frango empanado e frito, coberto com molho de tomate caseiro e queijo mussarela derretido. Uma explosão de sabor!",
+          "ingredientes": {
+            "ingrediente": [
+              "Filé de frango",
+              "Ovo",
+              "Farinha de trigo",
+              "Farinha de rosca",
+              "Molho de tomate",
+              "Queijo mussarela",
+              "Manjericão"
+            ]
+          },
+          "preco": "R$ 27,90",
+          "calorias": "450 kcal",
+          "tempodepreparo": "40 minutos"
+        }
+      ]
+    }
+  ##}
+  

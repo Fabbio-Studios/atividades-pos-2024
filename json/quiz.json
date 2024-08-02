@@ -1,0 +1,137 @@
+{
+    "quiz": {
+      "versao": "v1.0",
+      "disciplina": "Inglês II",
+      "professor": {
+        "nome": "Ailsoon",
+        "matricula": "40028922"
+      },
+      "turma": "INFOWEB 4V",
+      "data": "11/09/2001",
+      "questions": {
+        "question": [
+          {
+            "enunciado": "Qual é o passado do verbo To \"Go\"?",
+            "pontuação": "100",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "nao",
+                  "texto": "Got"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Gone"
+                },
+                {
+                  "correta": "sim",
+                  "texto": "Went"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Was"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "Como se diz água em inglês?",
+            "pontuação": "100",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "sim",
+                  "texto": "Water"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Walter"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Awgua"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Drink"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "Como se diz \"Fogo\" em inglês?",
+            "pontuação": "100",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "nao",
+                  "texto": "Fuego"
+                },
+                {
+                  "correta": "sim",
+                  "texto": "Fire"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Flame"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Flare"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "Qual dessas palavras é a tradução de \"Usually\"?",
+            "pontuação": "100",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "nao",
+                  "texto": "Usualmente"
+                },
+                {
+                  "correta": "sim",
+                  "texto": "Normalmente"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Usado"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Normal"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "Qual é o plural de \"Person\"",
+            "pontuação": "100",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "nao",
+                  "texto": "Persons"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Persona 5"
+                },
+                {
+                  "correta": "sim",
+                  "texto": "People"
+                },
+                {
+                  "correta": "nao",
+                  "texto": "Bodys"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ##}
+  
