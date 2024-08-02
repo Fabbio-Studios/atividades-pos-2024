@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quiz.xsd">
+  <disciplina>Inglês II</disciplina>
+  <professor>
+    <nome>Ailsoon</nome>
+    <matricula>40028922</matricula>
+  </professor>
+  <turma>INFOWEB 4V</turma>
+  <data>11/09/2001</data>
+  <questions>
+    <question>
+      <enunciado>Qual é o passado do verbo To "Go"?</enunciado>
+      <pontuação>100</pontuação>
+      <alternativas>
+        <alternativa correta="nao">Got</alternativa>
+        <alternativa correta="nao">Gone</alternativa>
+        <alternativa correta="sim">Went</alternativa>
+        <alternativa correta="nao">Was</alternativa>
+      </alternativas>
+    </question>
+
+    <question>
+        <enunciado>Como se diz água em inglês? </enunciado>
+        <pontuação>100</pontuação>
+        <alternativas>
+          <alternativa correta="sim">Water</alternativa>
+          <alternativa correta="nao">Walter</alternativa>
+          <alternativa correta="nao">Awgua</alternativa>
+          <alternativa correta="nao">Drink</alternativa>
+        </alternativas>
+      </question>
+      
+    <question>
+      <enunciado>Como se diz "Fogo" em inglês?</enunciado>
+      <pontuação>100</pontuação>
+      <alternativas>
+        <alternativa correta="nao">Fuego</alternativa>
+        <alternativa correta="sim">Fire</alternativa>
+        <alternativa correta="nao">Flame</alternativa>
+        <alternativa correta="nao">Flare</alternativa>
+      </alternativas>
+    </question>
+
+    <question>
+      <enunciado>Qual dessas palavras é a tradução de "Usually"?</enunciado>
+      <pontuação>100</pontuação>
+      <alternativas>
+        <alternativa correta="nao">Usualmente</alternativa>
+        <alternativa correta="sim">Normalmente</alternativa>
+        <alternativa correta="nao">Usado</alternativa>
+        <alternativa correta="nao">Normal</alternativa>
+      </alternativas>
+    </question>
+
+    <question>
+      <enunciado>Qual é o plural de "Person"</enunciado>
+      <pontuação>100</pontuação>
+      <alternativas>
+        <alternativa correta="nao">Persons</alternativa>
+        <alternativa correta="nao">Persona 5</alternativa>
+        <alternativa correta="sim">People</alternativa>
+        <alternativa correta="nao">Bodys</alternativa>
+      </alternativas>
+    </question>
+  </questions>
+</quiz>
