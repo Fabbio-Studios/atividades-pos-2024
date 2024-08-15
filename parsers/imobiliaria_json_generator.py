@@ -84,5 +84,5 @@ imobiliaria_json = {
 }
 
 # Escreve o JSON em um arquivo Json (lógico, num xml que não seria kkkk)
-with open("parses/imobiliaria.json", "w", encoding="utf-8") as json_file:
+with open("parsers/imobiliaria.json", "w", encoding="utf-8") as json_file:
     json.dump(imobiliaria_json, json_file, indent=2, ensure_ascii=False)

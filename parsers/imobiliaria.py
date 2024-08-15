@@ -1,7 +1,7 @@
 import json
 
 # Carrega o arquivo JSON
-with open('parses/imobiliaria.json', encoding='utf-8') as json_file:
+with open('parsers/imobiliaria.json', encoding='utf-8') as json_file:
     parsed_data = json.load(json_file)
 
 imoveis = parsed_data["imobiliaria"]["imovel"]
