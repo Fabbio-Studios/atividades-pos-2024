@@ -1,0 +1,141 @@
+{
+  "imobiliaria": {
+    "imovel": [
+      {
+        "id": 1,
+        "descricao": "Casa aconchegante de 3 quartos em bairro tranquilo.",
+        "proprietario": {
+          "nome": "João Silva",
+          "email": "joaosilva@email.com",
+          "telefones": [
+            "(11) 9999-9999",
+            "(11) 8888-8888"
+          ]
+        },
+        "endereco": {
+          "rua": "Rua das Flores",
+          "bairro": "Jardim Europa",
+          "cidade": "São Paulo",
+          "numero": "123"
+        },
+        "caracteristicas": {
+          "tamanho": "120",
+          "numQuartos": "3",
+          "numBanheiros": "2"
+        },
+        "valor": "R$ 500.000,00"
+      },
+      {
+        "id": 2,
+        "descricao": "Apartamento moderno com vista para a cidade.",
+        "proprietario": {
+          "nome": "Maria Oliveira",
+          "telefones": [
+            "(12) 7777-7777"
+          ]
+        },
+        "endereco": {
+          "rua": "Avenida Paulista",
+          "bairro": "Bela Vista",
+          "cidade": "São Paulo",
+          "numero": "Sem número"
+        },
+        "caracteristicas": {
+          "tamanho": "80",
+          "numQuartos": "2",
+          "numBanheiros": "2"
+        },
+        "valor": "R$ 400.000,00"
+      },
+      {
+        "id": 3,
+        "descricao": "Apartamento Antigo.",
+        "proprietario": {
+          "nome": "Mário",
+          "telefones": [
+            "(88) 90909-56565"
+          ]
+        },
+        "endereco": {
+          "rua": "Avenida Neópolitana",
+          "bairro": "Bela Vista",
+          "cidade": "São Paulo",
+          "numero": "Sem número"
+        },
+        "caracteristicas": {
+          "tamanho": "800",
+          "numQuartos": "20",
+          "numBanheiros": "10"
+        },
+        "valor": "R$ 4.000.000,00"
+      },
+      {
+        "id": 4,
+        "descricao": "Apartamento moderno com vista para a praia.",
+        "proprietario": {
+          "nome": "Mano Brown",
+          "telefones": [
+            "(69) 157-157"
+          ]
+        },
+        "endereco": {
+          "rua": "Avenida Passou e Tomou",
+          "bairro": "Beco do sufoco",
+          "cidade": "São Paulo",
+          "numero": "Sem número"
+        },
+        "caracteristicas": {
+          "tamanho": "100",
+          "numQuartos": "6",
+          "numBanheiros": "2"
+        },
+        "valor": "R$ 700.000,00"
+      },
+      {
+        "id": 5,
+        "descricao": "Cobertura duplex com piscina privativa.",
+        "proprietario": {
+          "nome": "Pedro Cardoso",
+          "email": "pedroc@email.com",
+          "telefones": [
+            "(13) 6666-6666"
+          ]
+        },
+        "endereco": {
+          "rua": "Rua das Hortênsias",
+          "bairro": "Alphaville",
+          "cidade": "Barueri",
+          "numero": "50"
+        },
+        "caracteristicas": {
+          "tamanho": "200",
+          "numQuartos": "4",
+          "numBanheiros": "3"
+        },
+        "valor": "R$ 1.000.000,00"
+      },
+      {
+        "id": 6,
+        "descricao": "Casa de campo em condomínio fechado.",
+        "proprietario": {
+          "nome": "Ana Lopes",
+          "telefones": [
+            "(14) 5555-5555"
+          ]
+        },
+        "endereco": {
+          "rua": "Estrada do Sol",
+          "bairro": "Granja Viana",
+          "cidade": "São Paulo",
+          "numero": "Sem número"
+        },
+        "caracteristicas": {
+          "tamanho": "150",
+          "numQuartos": "3",
+          "numBanheiros": "2"
+        },
+        "valor": "R$ 650.000,00"
+      }
+    ]
+  }
+}
