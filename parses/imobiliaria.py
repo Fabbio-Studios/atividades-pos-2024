@@ -1,88 +1,68 @@
-
-from xml.dom.minidom import parse
 import json
 
-dom = parse("xsd/imobiliaria.xml")
-imobiliaria_xml = dom.documentElement
-imoveis = imobiliaria_xml.getElementsByTagName("imovel")
+# Carrega o arquivo JSON
+with open('parses/imobiliaria.json', encoding='utf-8') as json_file:
+    parsed_data = json.load(json_file)
 
-# Lista para armazenar os imóveis
-lista_imoveis = []
+imoveis = parsed_data["imobiliaria"]["imovel"]
 
-# Contador de ID
-number = 1
+# lista de imóveis
+print("Imóveis disponíveis:")
 for imovel in imoveis:
-    imovel_data = {}
+    print(f"ID: {imovel['id']} - {imovel['descricao']}")
+print("\n" + "="*30)
 
-    imovel_data['id'] = number
-    number += 1
+# Selecionar imóvel
+try:
+    id_selecionado = int(input("pra mais informações, digite o ID do imóvel: "))
+    imovel = next((item for item in imoveis if item["id"] == id_selecionado), None)
 
-    # Descrição do imóvel
-    descricao = imovel.getElementsByTagName("descricao")[0].firstChild.nodeValue
-    imovel_data['descricao'] = descricao
+    if imovel:
+        descricao = imovel["descricao"]
+        proprietario = imovel["proprietario"]
+        tel_proprietario = proprietario.get("telefones", [])
+        email_proprietario = proprietario.get("email", "")
+        endereco = imovel["endereco"]
+        caracteristicas = imovel["caracteristicas"]
+        valor = imovel["valor"]
 
-    # dados do proprietário
-    proprietario = imovel.getElementsByTagName("proprietario")[0]
-    nome_proprietario = proprietario.getElementsByTagName("nome")[0].firstChild.nodeValue
-    imovel_data['proprietario'] = {'nome': nome_proprietario}
+        print("\n" + "="*30)
+        print("****** Descrição: ******")
+        print(descricao)
+        print("")
 
-    # Email do proprietario
-    email = proprietario.getElementsByTagName("email")
-    if email:
-        imovel_data['proprietario']['email'] = email[0].firstChild.nodeValue
+        print("****** Proprietário(a): ******")
+        print(f"  - {proprietario['nome']}")
+        print("")
 
-    # Telefones do proprietario
-    telefones = proprietario.getElementsByTagName("telefone")
-    if telefones:
-        lista_telefones = []
-        for telefone in telefones:
-            lista_telefones.append(telefone.firstChild.nodeValue)
-        imovel_data['proprietario']['telefones'] = lista_telefones
+        print("****** Tel.: ******")
+        for tel in tel_proprietario:
+            print(f"  - {tel}")
+        print("")
 
-    # Endereço do imóvel
-    endereco = imovel.getElementsByTagName("endereco")[0]
-    rua = endereco.getElementsByTagName("rua")[0].firstChild.nodeValue
-    bairro = endereco.getElementsByTagName("bairro")[0].firstChild.nodeValue
-    cidade = endereco.getElementsByTagName("cidade")[0].firstChild.nodeValue
+        if email_proprietario:
+            print("****** Email: ******")
+            print(f"  - {email_proprietario}")
+            print("")
 
-    numero = endereco.getElementsByTagName("numero")
-    if numero:
-        numero = numero[0].firstChild.nodeValue
+        print("****** Endereço: ******")
+        print(f"   Rua: {endereco['rua']}")
+        print(f"   Bairro: {endereco['bairro']}")
+        print(f"   Cidade: {endereco['cidade']}")
+        print(f"   N°: {endereco['numero']}")
+        print("")
+
+        print("****** Características: ******")
+        print(f"  Tamanho: {caracteristicas['tamanho']} m²")
+        print(f"  N° de quartos: {caracteristicas['numQuartos']}")
+        print(f"  N° de banheiros: {caracteristicas['numBanheiros']}")
+        print("")
+
+        print(f"****** Valor: {valor} ******")
     else:
-        numero = "Sem número"
+        print("Imóvel não encontrado!")
 
-    imovel_data['endereco'] = {
-        'rua': rua,
-        'bairro': bairro,
-        'cidade': cidade,
-        'numero': numero
-    }
+    print("="*30)
 
-    # Características do imóvel
-    caracteristicas = imovel.getElementsByTagName("caracteristicas")[0]
-    tamanho = caracteristicas.getElementsByTagName("tamanho")[0].firstChild.nodeValue
-    num_quartos = caracteristicas.getElementsByTagName("numQuartos")[0].firstChild.nodeValue
-    num_banheiros = caracteristicas.getElementsByTagName("numBanheiros")[0].firstChild.nodeValue
-    imovel_data['caracteristicas'] = {
-        'tamanho': tamanho,
-        'numQuartos': num_quartos,
-        'numBanheiros': num_banheiros
-    }
-
-    # Valor do imóvel
-    valor = imovel.getElementsByTagName("valor")[0].firstChild.nodeValue
-    imovel_data['valor'] = valor
-
-    # adiciona o imóvel na lista
-    lista_imoveis.append(imovel_data)
-
-# Cria o JSON
-imobiliaria_json = {
-    "imobiliaria": {
-        "imovel": lista_imoveis
-    }
-}
-
-# Escreve o JSON em um arquivo Json (lógico, num xml que não seria kkkk)
-with open("parses/imobiliaria.json", "w", encoding="utf-8") as json_file:
-    json.dump(imobiliaria_json, json_file, indent=2, ensure_ascii=False)
+except ValueError:
+    print("SDigite um número válido!")
