@@ -1,6 +1,5 @@
 import requests
 import json
-
 BASE_URL = "https://jsonplaceholder.typicode.com/users"
 
 def listar_usuarios():
