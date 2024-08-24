@@ -7,7 +7,7 @@ url = "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoServic
 # XML estruturado
 
 country = input("Digite o código do País: ")
-funcao = "CountryFlag"
+funcao = "CountryName"
 payload = f"""<?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
