@@ -1,24 +1,17 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import { updatePokemonInfo, previousPokemon, nextPokemon, goToPokemon, searchPokemon, playCry } from './api.js';
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+window.onload = () => {
+    updatePokemonInfo(1); // Carrega o primeiro Pokémon ao iniciar a página
 
-setupCounter(document.querySelector('#counter'))
+    document.getElementById('searchInput').addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+            searchPokemon(); // Chama a função de pesquisa
+        }
+    });
+
+    document.getElementById('prev-button').addEventListener('click', previousPokemon);
+    document.getElementById('next-button').addEventListener('click', nextPokemon);
+    document.getElementById('go-button').addEventListener('click', goToPokemon);
+    document.querySelector('.btn-cry').addEventListener('click', playCry); // Adiciona o evento de clique
+}
